@@ -1,12 +1,12 @@
 import sys
 
 def cat():
-    print('Meow!')
+    print('meow!')
 def default():
-    print('Hello')
+    print('hello')
 
 def dog():
-    print('wang!')
+    print('Wang!')
 def main():
     if sys.argv[1] == 'cat':
         cat()
